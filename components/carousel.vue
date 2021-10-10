@@ -21,15 +21,15 @@
 	    </div>
       <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/bano_verde.jpg"
+        img-src="./assets/imgs/carousel/bano_verde.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/dormitorio.jpg"
+        img-src="./assets/imgs/carousel/dormitorio.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/salon1.jpg"
+        img-src="./assets/imgs/carousel/salon1.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
