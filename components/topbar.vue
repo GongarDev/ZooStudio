@@ -1,10 +1,12 @@
 <template>
-	<div>
-		<div class="logo">
-			<img src="./assets/imgs/logo.png" alt="" />
-		</div>
+	<div class="topbar">
 		<div class="title">
-			<p>ESTUDIO DE ARQUITECTURA</p>
+			<div class="logo">
+				<img src="./assets/imgs/logo.png" alt="" />
+			</div>
+			<div class="subtitle">
+				<p>ESTUDIO DE ARQUITECTURA</p>
+			</div>
 		</div>
 	</div>
 </template>
@@ -12,6 +14,14 @@
 <script>
 	module.exports = {
 		name: 'topbar',
+		mixins: [],
+		data() {
+			return {
+				section: "topbar",
+			};
+		},
+		components: {
+		},
 	};
 </script>
 
@@ -23,17 +33,17 @@
 		z-index: 2;
 		position: absolute;
 		height: 20%;
-		width: 100%;
+		width: 80%;
 		padding-top: 10px;
 	}
 
-	.title {
+	.subtitle {
 		display: flex;
 		justify-content: center;
 		z-index: 2;
 		position: absolute;
 		height: 20%;
-		width: 100%;
+		width: 80%;
 		padding-top: 140px;
 		font-family: 'Roboto';
 		font-size:smaller;
