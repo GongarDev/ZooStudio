@@ -33,15 +33,15 @@
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/salon2.jpg"
+        img-src="./assets/imgs/carousel/salon2.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/salon3.jpg"
+        img-src="./assets/imgs/carousel/salon3.jpg"
       ></b-carousel-slide>
             <b-carousel-slide
         caption=""
-        img-src="../assets/imgs/carousel/bano_byn.jpg"
+        img-src="./assets/imgs/carousel/bano_byn.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
