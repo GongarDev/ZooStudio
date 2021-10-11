@@ -17,7 +17,7 @@
 			};
 		},
 		components: {
-			carousel: httpVueLoader("../components/carousel.vue"),
+			carousel: httpVueLoader("../components/home/carousel.vue"),
 			sidebar: httpVueLoader("../components/sidebar.vue"),
 		},
 	};

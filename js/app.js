@@ -2,10 +2,12 @@ let app;
 
 function initVue() {
     const Home = httpVueLoader("views/home.vue");
+    const Nosotros = httpVueLoader("views/nosotros.vue");
 
     const router = new VueRouter({
         routes: [
             {path: "/", name: "home", component: Home},
+            {path: "/nosotros", name: "nosotros", component: Nosotros},
         ],
     });
 
@@ -21,6 +23,7 @@ function initVue() {
         },
         components: {
             sidebar: httpVueLoader("./components/sidebar.vue"),
+            topbar: httpVueLoader("./components/topbar.vue"),
         }
     })
 }
