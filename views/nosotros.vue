@@ -3,6 +3,9 @@
         <div class="topbar">
 			<topbar></topbar>
 		</div>
+        <div class="intro">
+            <intro></intro>
+        </div>
         <div class="equipocard">
             <equipocard></equipocard>
         </div>
@@ -18,6 +21,7 @@
 		},
 		components: {
             topbar: httpVueLoader("../components/topbar.vue"),
+            intro: httpVueLoader("../components/nosotros/intro.vue"), 
 			equipocard: httpVueLoader("../components/nosotros/equipo_card.vue"),            
 		},
 	};
@@ -36,8 +40,8 @@
 
     }
 
-    .equipocard {
-        margin-top: 500px;
+    .intro {
+        margin-top: 300px;
         width: auto;
     }
 </style>

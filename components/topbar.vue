@@ -2,7 +2,7 @@
     <div id="navbar">
         <b-button v-b-toggle.sidebar-right class="divempty" disabled><i class="fas fa-bars"></i></b-button>
         <div id="logo">
-            <img id="img" src="./assets/imgs/logo.png" alt="">
+            <router-link class="routerLink" to="/"><img id="img" src="./assets/imgs/logo.png" alt=""></router-link>
             <div id="subtitle">ESTUDIO DE ARQUITECTURA</div>
         </div>
         <div id="navbar-right">
@@ -31,15 +31,15 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            document.getElementById("navbar").style.padding = "10px 10px";
+            document.getElementById("navbar").style.padding = "8px 10px";
             document.getElementById("logo").style.fontSize = "20px";
             document.getElementById("img").style.height = "30px";
-            document.getElementById("subtitle").style.fontSize = "12px";
+            document.getElementById("subtitle").style.fontSize = "16px";
             document.getElementById("logo").style.fontWeight = "normal";
 
 
         } else {
-            document.getElementById("navbar").style.padding = "12px 10px";
+            document.getElementById("navbar").style.padding = "10px 10px";
             document.getElementById("logo").style.fontSize = "smaller";
             document.getElementById("img").style.height = "120px";
             document.getElementById("subtitle").style.fontSize = "smaller";
@@ -64,14 +64,14 @@
         text-align: center;
         font-size: 16px;
         color: #ffffff;
-        margin: 40px 1px;
+        margin: 20px 1px;
         transition: 0.3s;
     }
 
     #navbar {
         overflow: hidden;
         background-color: #ffffff;
-        padding: 12px 10px;
+        padding: 10px 10px;
         transition: 0.4s;
         position: fixed;
         width: 100%;
@@ -93,7 +93,7 @@
         float: left;
         color: black;
         text-align: center;
-        padding: 12px;
+        padding: 10px;
         text-decoration: none;
         font-size: smaller; 
         line-height: 25px;
@@ -122,7 +122,7 @@
 
     @media screen and (max-width: 180px) {
         #navbar {
-            padding: 12px 10px !important;
+            padding: 10px 10px !important;
         }
         #navbar #logo {
             float: none;
@@ -132,5 +132,9 @@
         #navbar-right {
             float: none;
         }
+    }
+
+    .routerLink {
+        text-decoration: none;
     }
 </style>

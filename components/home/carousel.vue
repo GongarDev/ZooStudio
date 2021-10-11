@@ -77,7 +77,7 @@ module.exports = {
   }
 
 	.subtitle {
-		display: flex;
+		display: none;
 		justify-content: center;
 		z-index: 2;
 		position: absolute;
