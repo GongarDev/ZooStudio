@@ -1,35 +1,36 @@
 <template>  
-<div class="container">
-  <h4 class="title">Equipo</h4>
-  <b-card-group deck>
-    <b-card class="card" img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
-      <b-card-text class="card_title">
-        Carlos Delgado
-      </b-card-text>
-      <b-card-text class="card_subtitle">
-        Arquitecto
-      </b-card-text>
-    </b-card>
+  <div class="container">
+    <h4 class="title"></h4>
+    <b-card-group deck>
+      <b-card class="card" img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+        <b-card-text class="card_title">
+          Carlos Delgado
+        </b-card-text>
+        <b-card-text class="card_subtitle">
+          Arquitecto
+        </b-card-text>
+        <a class="" target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin items"></i></a>
+      </b-card>
 
-    <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
-      <b-card-text class="card_title">
-        Mario del Valle
-      </b-card-text>
-      <b-card-text class="card_subtitle">
-        Arquitecto
-      </b-card-text>
-    </b-card>
+      <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+        <b-card-text class="card_title">
+          Mario del Valle
+        </b-card-text>
+        <b-card-text class="card_subtitle">
+          Arquitecto
+        </b-card-text>
+      </b-card>
 
-    <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
-      <b-card-text class="card_title">
-        Nacho Sánchez-Escobero
-      </b-card-text>
-      <b-card-text class="card_subtitle">
-        Arquitecto
-      </b-card-text>
-    </b-card>
-  </b-card-group>
-</div>
+      <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+        <b-card-text class="card_title">
+          Nacho Sánchez-Escobero
+        </b-card-text>
+        <b-card-text class="card_subtitle">
+          Arquitecto
+        </b-card-text>
+      </b-card>
+    </b-card-group>
+  </div>
 </template>
 
 <script>
@@ -41,6 +42,7 @@
         },
     };
 </script>
+
 <style scoped>
 
 *{
@@ -64,6 +66,19 @@
     font-size: 0.8em;
     margin-top: -20px;
     font-style: italic;
+  }
+
+    .items {
+    color: #009999;
+    margin: 2px;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 3px;
+    transition: 0.3s;
+    border-radius: 3px;
+    text-decoration: none;
+    
   }
 </style>
 

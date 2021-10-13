@@ -30,13 +30,12 @@
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
             document.getElementById("navbar").style.padding = "8px 10px";
             document.getElementById("logo").style.fontSize = "20px";
             document.getElementById("img").style.height = "30px";
             document.getElementById("subtitle").style.fontSize = "16px";
             document.getElementById("logo").style.fontWeight = "normal";
-
 
         } else {
             document.getElementById("navbar").style.padding = "10px 10px";
@@ -48,6 +47,10 @@
     }
 </script>
 <style scoped>
+
+    .sidebar {
+        margin-right: 50px;
+    }
 
     .fa-bars {
         color: #FFFFFF;
@@ -65,6 +68,7 @@
         font-size: 16px;
         color: #ffffff;
         margin: 20px 1px;
+        margin-left: 50px;
         transition: 0.3s;
     }
 
@@ -72,7 +76,7 @@
         overflow: hidden;
         background-color: #ffffff;
         padding: 10px 10px;
-        transition: 0.4s;
+        transition: 0.3s;
         position: fixed;
         width: 100%;
         top: 0;
@@ -108,7 +112,7 @@
 
     #navbar #logo #img, #subtitle {
         font-size: smaller;
-        transition: 0.4s;
+        transition: 0.2s;
         font-family: 'Roboto';
         text-shadow: 0px 0px 2px #000;
         text-decoration: none;

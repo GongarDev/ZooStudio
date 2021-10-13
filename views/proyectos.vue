@@ -1,31 +1,27 @@
 <template>
-	<div class="nosotros">
+	<div class="proyectos">
         <div class="topbar">
 			<topbar></topbar>
 		</div>
-        <div class="intro">
-            <intro></intro>
+        <div class="proyectos_card">
+            <proyectos_card></proyectos_card>
         </div>
-        <div class="equipo_card">
-            <equipo_card></equipo_card>
-        </div>
-        <div class="footerbar">
+        <div class=" fixed-bottom">
             <footerbar></footerbar>
         </div>
 	</div>
 </template>
 <script>
 	module.exports = {
-		name: 'nosotros',
+		name: 'contacto',
 		data() {
 			return {
-				section: "nosotros",
+				section: "contacto",
 			};
 		},
 		components: {
             topbar: httpVueLoader("../components/topbar.vue"),
-            intro: httpVueLoader("../components/nosotros/intro.vue"), 
-			equipo_card: httpVueLoader("../components/nosotros/equipo_card.vue"),  
+            proyectos_card: httpVueLoader("../components/proyectos/proyectos_card.vue"),    
             footerbar: httpVueLoader("../components/footerbar.vue"),           
 		},
 	};
@@ -39,12 +35,15 @@
         z-index: 1;
     }
 
-    .nosotros {
-        background-color: #ffffff;
-    }
-
-    .intro {
-        margin-top: 250px;
+    .proyectos_card {
+        padding-top: 200px;
         width: auto;
     }
+
+    .footerbar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
 </style>

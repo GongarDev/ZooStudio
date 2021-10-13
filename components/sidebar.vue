@@ -5,13 +5,13 @@
       <div class="px-3 py-2">
           <nav class="mb-3 w-100">
             <b-nav vertical class="w-100">
-              <router-link class="routerLink" to="/"><b-nav-item active href="home" @click="hide"><span class="items">Home</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros" @click="hide"><span class="items">Nosotros</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/"><b-nav-item href="proyectos" @click="hide"><span class="items">Proyectos</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/"><b-nav-item href="contacto" @click="hide"><span class="items">Contacto</span></b-nav-item></router-link>
-              <b-nav-item target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c" @click="hide"><i class="fab fa-facebook-square items"></i></b-nav-item>
-              <b-nav-item target="_blank" href="https://www.instagram.com/holazooestudio/" @click="hide"><i class="fab fa-instagram-square items"></i></b-nav-item>
-              <b-nav-item target="_blank" href="https://twitter.com/holazooestudio" @click="hide"><i class="fab fa-twitter-square items"></i></b-nav-item>
+              <router-link class="routerLink" to="/"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
+              <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
+              <router-link class="routerLink" to="/proyectos"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
+              <router-link class="routerLink" to="/contacto"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
+              <b-nav-item target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-facebook-square items"></i></b-nav-item>
+              <b-nav-item target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-instagram-square items"></i></b-nav-item>
+              <b-nav-item target="_blank" href="https://twitter.com/holazooestudio"><i class="fab fa-twitter-square items"></i></b-nav-item>
             </b-nav>
           </nav>
       </div>
