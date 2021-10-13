@@ -9,6 +9,9 @@
         <div class="equipo_card">
             <equipo_card></equipo_card>
         </div>
+        <div class="servicios">
+            <servicios></servicios>
+        </div>
         <div class="footerbar">
             <footerbar></footerbar>
         </div>
@@ -26,6 +29,7 @@
             topbar: httpVueLoader("../components/topbar.vue"),
             intro: httpVueLoader("../components/nosotros/intro.vue"), 
 			equipo_card: httpVueLoader("../components/nosotros/equipo_card.vue"),  
+            servicios: httpVueLoader("../components/nosotros/servicios.vue"),  
             footerbar: httpVueLoader("../components/footerbar.vue"),           
 		},
 	};
