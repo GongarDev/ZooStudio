@@ -1,9 +1,9 @@
 <template>
     <div id="navbar">
-        <b-button v-b-toggle.sidebar-right class="divempty" disabled><i class="fas fa-bars"></i></b-button>
+        <b-button v-b-toggle.sidebar-right class="btn"><a href="javascript:history.back()"><i class="fas fa-arrow-circle-left"></i></a></b-button>
         <div id="logo">
             <router-link class="routerLink" to="/"><img id="img" src="./assets/imgs/logo.png" alt=""></router-link>
-            <div id="subtitle">ESTUDIO DE ARQUITECTURA</div>
+            <!-- <div id="subtitle">ESTUDIO DE ARQUITECTURA</div> -->
         </div>
         <div id="navbar-right">
             <div class="sidebar">
@@ -52,11 +52,47 @@
         margin-right: 50px;
     }
 
+  .fa-arrow-circle-left {
+    color: #009999;
+    font-size: 25px;
+    margin: 4px;
+    padding: 1px;
+  }
+
+  .fa-arrow-circle-left:hover {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 4px;
+    padding: 1px;
+  }
     .fa-bars {
         color: #FFFFFF;
         font-size: 25px;
         margin: 4px;
         padding: 1px;
+    }
+
+    .btn {
+        background: transparent;
+        border: none;
+        outline:0;
+        padding: 2px 4px;
+        text-align: center;
+        font-size: 16px;
+        margin: 20px 1px;
+        margin-left: 50px;
+        transition: 0.3s;
+    }
+
+    .btn:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .btn:hover{
+        color: white;
+        background-color: #009999;
+        opacity: 0.3;
     }
 
     .divempty {

@@ -5,28 +5,30 @@
                 <div class="d-block">
                     <div class="mb-4">¡Síguenos!</div>
                     <div class="d-flex justify-content-between w-50 mb-5">
-                        <i class="fab fa-2x fa-facebook"></i>
-                        <i class="fab fa-2x fa-twitter"></i>
-                        <i class="fab fa-2x fa-instagram"></i>
-                        <i class="fab fa-2x fa-linkedin"></i>
+                        <a target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-2x fa-facebook items"></i></a>
+                        <a target="_blank" href="https://twitter.com/holazooestudio"><i class="fab fa-2x fa-twitter items"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-2x fa-instagram items"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com"><i class="fab fa-2x fa-linkedin items"></i></a>
                     </div>
                     <div class="d-block mb-4">
                         <span class="fw-bold">Email</span>
                         <br />
-                        <small>example@example.com</small>
+                        <small>hola@zoostudio.com</small>
                     </div>
                         <div class="d-block mb-4">
                         <span class="fw-bold">Teléfono</span>
                         <br />
-                        <small>555555555</small>
+                        <small>+34 675 53 91 50</small>
+                        <br />
+                        <small>+34 695 99 98 35</small>
                     </div>
                     <div class="d-block mb-4">
                         <span class="fw-bold mb-4">Sevilla</span>
-                        <br />
+                        <!-- <br />
                         <small>Calle falsa 123</small>
                         <br />
                         <small>Districto Macarena, 41009</small>
-                        <br />
+                        <br /> -->
                     </div>
                 </div>
             </div>
@@ -105,5 +107,20 @@
         background-color: #009999;
         border-color: #009999;
         color: #ffffff;
+    }
+
+    .items {
+        color: #000000;
+        text-align: center;
+        transition: 0.3s;
+        border-radius: 3px;
+        text-decoration: none; 
+        padding-top: -10px;
+    }
+
+    .items:hover {
+        color: #009999;
+        background-color: #ffffff;
+        cursor: pointer;
     }
 </style>

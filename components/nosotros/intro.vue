@@ -1,15 +1,15 @@
 <template>
     <b-container fluid="sm">
-        <h5><b>Somos un estudio de Arquitectura en Sevilla</b></h5>
-        <p><b>ZOÒ</b> es la solución creativa e integral para la idea y ejecución de tu reforma.
+        <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
+        <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
 
-        <p>Diseñamos y construimos tu obra para que tu presupuesto se ajuste lo mejor posible
-        a tus necesidades sin que afecte a la calidad estética del proyecto.</p>
+        <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
+             Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
 
-        <p>Te ofrecemos la oportunidad de imaginar y visualizar el resultado final 
-        para que puedas tomar decisiones de forma interactiva.</p>
+        <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
+            lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
 
-        <p>Somos <b>ZOÒ</b> y nos tomamos tus placeres en serio.</p>
+        <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
 </b-container>
 </template>
 

@@ -7,17 +7,16 @@
             <b-nav vertical class="navi w-100 h-100">
 
               <div>
-              <router-link class="routerLink" to="/"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/proyectos"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
-              <router-link class="routerLink" to="/contacto"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/proyectos"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/contacto"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
               </div>
 
               <div class="d-flex bg-dark text-light follow">
                 <b-nav-item target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-facebook-square icons"></i></b-nav-item>
                 <b-nav-item target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-instagram-square icons"></i></b-nav-item>
                 <b-nav-item target="_blank" href="https://twitter.com/holazooestudio"><i class="fab fa-twitter-square icons"></i></b-nav-item>
-
               </div>
 
             </b-nav>
@@ -37,11 +36,12 @@
 </script>
 <style scoped>
 
-.navi {
-  display: flex;
-  flex-direction: column;
-justify-content: space-between;
-}
+  .navi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
   .fa-bars {
     color: #009999;
     font-size: 25px;
@@ -82,7 +82,6 @@ justify-content: space-between;
     color: white;
 		background-color: #009999;
     cursor: pointer;
-
   }
 
   .items {
@@ -90,7 +89,7 @@ justify-content: space-between;
     margin: 2px;
     padding: 5px 5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     margin: 5px 3px;
     transition: 0.3s;
     border-radius: 3px;
@@ -101,24 +100,31 @@ justify-content: space-between;
     color: #009999;
     text-align: center;
     font-size: 30px;
+    padding: 5px 5px;
     margin: 5px 3px;
     transition: 0.3s;
     border-radius: 3px;
     text-decoration: none;
   }
 
+  .icons:hover {
+    color: white;
+		background-color: #009999;
+    cursor: pointer;
+  }
+
   .routerLink{
-      text-decoration: none;
+    text-decoration: none;
   }
 
   span {
-        margin: 2px;
+    margin: 2px;
   }
 
   .follow {
     display: flex;
-align-items: flex-end;
-justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-around;
     color: #009999;
     margin: 2px;
     padding: 5px 5px;
@@ -126,13 +132,11 @@ justify-content: space-around;
     font-size: 16px;
     margin: 5px 3px;
     bottom: 0;
-
   }
 
   .titles, .titles:hover {
     text-decoration: none;
     color: #009999;
-
   }
 
 </style>

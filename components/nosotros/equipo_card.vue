@@ -53,18 +53,21 @@
     font-weight: bold;
     margin-bottom: 50px;
   }
+  
   .card {
     border: 0px;
     border-radius: 0px;
     text-align: center;
     font-family: 'Roboto';
   }
+
   .card_title {
     font-size: 1.0em;
     font-weight: bold;
     text-align: center;
     margin-top: -18px;
   }
+
   .card_subtitle {
     font-size: 0.8em;
     margin-top: -20px;
@@ -72,7 +75,7 @@
   }
 
   .items {
-    color: #009999;
+    color: #000000;
     text-align: center;
     font-size: 20px;
     transition: 0.3s;
@@ -80,10 +83,10 @@
     text-decoration: none; 
     padding-top: -10px;
   }
-</style>
 
-<!--  
-<template #footer>
-  <small class="text-muted">Arquitecto</small>
-</template> 
--->
+  .items:hover {
+    color: #009999;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+</style>

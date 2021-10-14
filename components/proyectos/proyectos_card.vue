@@ -4,7 +4,7 @@
             <b-card class="container_foto rounded-circle" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/antonio_pantion/cabecera.jpg" img-alt="Image" img-top>
             </b-card>
 
-            <b-card class="container_foto rounded-circle" img-src="./assets/imgs/proyectos/merida/cabecera.jpg" img-alt="Image" img-top>
+            <b-card class="container_foto rounded-circle" @click="$router.push( {name:'ms_xv'} )" img-src="./assets/imgs/proyectos/merida/cabecera.jpg" img-alt="Image" img-top>
             </b-card>
 
             <b-card class="container_foto rounded-circle" img-src="https://placekitten.com/g/300/300" img-alt="Image" img-top>
