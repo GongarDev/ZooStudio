@@ -24,7 +24,7 @@
 </script>
 <style scoped>
 	.sidebar {
-		position:absolute;
+		position: absolute;
 		right: 55px;
 		top: 35px;
 		z-index: 1;

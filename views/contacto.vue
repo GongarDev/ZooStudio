@@ -6,7 +6,7 @@
         <div class="form_email">
             <form_email></form_email>
         </div>
-        <div class=" fixed-bottom">
+        <div class=" footerbar">
             <footerbar></footerbar>
         </div>
 	</div>
@@ -41,9 +41,10 @@
     }
 
     .footerbar {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         width: 100%;
+        z-index: -2;
     }
     
 </style>

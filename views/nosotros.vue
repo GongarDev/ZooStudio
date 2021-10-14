@@ -43,12 +43,17 @@
         z-index: 1;
     }
 
+    .intro {
+        margin-top: 250px;
+        width: auto;
+    }
+
     .nosotros {
         background-color: #ffffff;
     }
 
-    .intro {
-        margin-top: 250px;
-        width: auto;
+    .servicios {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 </style>

@@ -6,17 +6,17 @@
         <div class="proyectos_card">
             <proyectos_card></proyectos_card>
         </div>
-        <div class=" fixed-bottom">
+        <div class="footerbar">
             <footerbar></footerbar>
         </div>
 	</div>
 </template>
 <script>
 	module.exports = {
-		name: 'contacto',
+		name: 'proyectos',
 		data() {
 			return {
-				section: "contacto",
+				section: "proyectos",
 			};
 		},
 		components: {
@@ -41,9 +41,10 @@
     }
 
     .footerbar {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         width: 100%;
+        z-index: -2;
     }
     
 </style>

@@ -1,7 +1,7 @@
 <template>
     <div class="container text-center">
         <b-card-group class="contenedor text-center">
-            <b-card class="container_foto rounded-circle" img-src="./assets/imgs/proyectos/antonio_pantion/cabecera.jpg" img-alt="Image" img-top>
+            <b-card class="container_foto rounded-circle" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/antonio_pantion/cabecera.jpg" img-alt="Image" img-top>
             </b-card>
 
             <b-card class="container_foto rounded-circle" img-src="./assets/imgs/proyectos/merida/cabecera.jpg" img-alt="Image" img-top>
