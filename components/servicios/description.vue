@@ -1,11 +1,11 @@
 <template>
     <b-container fluid="sm">
-        <h5><b>SERVICIOS</b></h5>
+        
         <div class="row">
             <div class="col-sm-6">
                 <div>
                     <div>
-                        <h5>Lorem Ipsum</h5>
+                        <h5>Diseñamos</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Sed et neque ut purus malesuada finibus fermentum in sapien. 
                             Etiam nibh erat, molestie imperdiet viverra eu, tristique non odio. 
@@ -20,7 +20,7 @@
             <div class="col-sm-6">
                 <div>
                     <div>
-                        <h5>Lorem Ipsum</h5>
+                        <h5>Construimos</h5>
                         <p>Pellentesque sed pharetra neque. Fusce volutpat justo lacus, a pretium nunc pretium in. 
                             Nam ullamcorper est commodo eros egestas ullamcorper. Cras eleifend eros id finibus dictum. 
                             Proin vel ante diam. Sed felis urna, laoreet quis turpis ut, efficitur commodo libero. 
@@ -35,8 +35,9 @@
 </template>
 
 <script>
+
     module.exports = {
-        name: "servicios",
+        name: "description",
         data() {
             return {
             };

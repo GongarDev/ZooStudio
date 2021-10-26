@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button v-b-toggle.sidebar-right class="btn"><i class="fas fa-bars"></i></b-button>
+    <b-button v-b-toggle.sidebar-right class="btn"><i class="fas fa-bars fa-x3"></i></b-button>
     <b-sidebar id="sidebar-right" bg-variant="dark" title="" right shadow backdrop>
       <div class="px-3 py-2 w-100 h-100">
           <nav class="mb-3 w-100 h-100">
@@ -9,6 +9,7 @@
               <div>
                 <router-link class="routerLink" to="/"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
                 <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/servicios"><b-nav-item href="servicios"><span class="items">Servicios</span></b-nav-item></router-link> 
                 <router-link class="routerLink" to="/proyectos"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
                 <router-link class="routerLink" to="/contacto"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
               </div>
@@ -44,14 +45,14 @@
   
   .fa-bars {
     color: #009999;
-    font-size: 25px;
+    font-size: 35px;
     margin: 4px;
     padding: 1px;
   }
 
   .fa-bars:hover {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 35px;
     margin: 4px;
     padding: 1px;
   }

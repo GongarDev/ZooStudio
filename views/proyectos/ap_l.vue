@@ -1,14 +1,14 @@
 <template>
 	<div class="ap_l">
-    <div class="topbar">
+        <div class="topbar">
 			<topbar></topbar>
 		</div>
-      <div class="card_ap">
-        <card_ap></card_ap>
-      </div>
-    <div class="footerbar">
-        <footerbar></footerbar>
-    </div>
+        <div class="card_ap">
+            <card_ap></card_ap>
+        </div>
+        <div class="footerbar">
+            <footerbar></footerbar>
+        </div>
 	</div>
 </template>
 
@@ -31,8 +31,8 @@
 <style scoped>
 
     .card_ap {
-        margin-top: 200px;
-        width: auto;
+        margin-top: 150px;
+        width: 100%;
     }
 
 </style>

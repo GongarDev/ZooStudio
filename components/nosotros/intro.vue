@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid="sm">
+    <b-container fluid="sm" style="text-align: justify">
         <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
         <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
 

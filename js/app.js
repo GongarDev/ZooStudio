@@ -4,6 +4,7 @@ function initVue() {
     const Home = httpVueLoader("views/home.vue");
     const Nosotros = httpVueLoader("views/nosotros.vue");
     const Proyectos = httpVueLoader("views/proyectos.vue");
+    const Servicios = httpVueLoader("views/servicios.vue");
     const Contacto = httpVueLoader("views/contacto.vue");
 
     //Proyectos
@@ -15,6 +16,7 @@ function initVue() {
             {path: "/", name: "home", component: Home},
             {path: "/nosotros", name: "nosotros", component: Nosotros},
             {path: "/proyectos", name: "proyectos", component: Proyectos},
+            {path: "/servicios", name: "servicios", component: Servicios},
             {path: "/contacto", name: "contacto", component: Contacto},
 
             //Proyectos

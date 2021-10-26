@@ -1,13 +1,10 @@
 <template>
-	<div class="nosotros">
+	<div class="servicios">
         <div class="topbar">
 			<topbar></topbar>
 		</div>
-        <div class="intro">
-            <intro></intro>
-        </div>
-        <div class="equipo_card">
-            <equipo_card></equipo_card>
+        <div class="description">
+            <description></description>
         </div>
         <div class="footerbar">
             <footerbar></footerbar>
@@ -16,16 +13,15 @@
 </template>
 <script>
 	module.exports = {
-		name: 'nosotros',
+		name: 'servicios',
 		data() {
 			return {
-				section: "nosotros",
+				section: "servicios",
 			};
 		},
 		components: {
             topbar: httpVueLoader("../components/topbar.vue"),
-            intro: httpVueLoader("../components/nosotros/intro.vue"), 
-			equipo_card: httpVueLoader("../components/nosotros/equipo_card.vue"),  
+            description: httpVueLoader("../components/servicios/description.vue"), 
             footerbar: httpVueLoader("../components/footerbar.vue"),           
 		},
 	};
@@ -39,12 +35,19 @@
         z-index: 1;
     }
 
-    .intro {
-        margin-top: 250px;
-        width: auto;
+    .servicios {
+        background-color: #ffffff;
     }
 
-    .nosotros {
-        background-color: #ffffff;
+    .description {
+        margin-top: 250px;
+        width: auto;  
+    
+    }
+    .footerbar {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: -2;
     }
 </style>

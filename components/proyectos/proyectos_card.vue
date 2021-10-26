@@ -102,7 +102,7 @@
 
     .container_foto:hover img {
         opacity: 0.4;
-        transform: scale(1.5);
+        /* transform: scale(1.5); */
     }
 
     .container_foto:hover article {

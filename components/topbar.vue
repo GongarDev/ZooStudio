@@ -31,16 +31,16 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            document.getElementById("navbar").style.padding = "8px 10px";
-            document.getElementById("logo").style.fontSize = "20px";
-            document.getElementById("img").style.height = "30px";
+            document.getElementById("navbar").style.padding = "4px 10px";
+            document.getElementById("logo").style.fontSize = "25px";
+            document.getElementById("img").style.height = "35px";
             document.getElementById("subtitle").style.fontSize = "16px";
             document.getElementById("logo").style.fontWeight = "normal";
 
         } else {
-            document.getElementById("navbar").style.padding = "10px 10px";
+            document.getElementById("navbar").style.padding = "8px 10px";
             document.getElementById("logo").style.fontSize = "smaller";
-            document.getElementById("img").style.height = "120px";
+            document.getElementById("img").style.height = "100px";
             document.getElementById("subtitle").style.fontSize = "smaller";
 
         }
@@ -52,19 +52,20 @@
         margin-right: 50px;
     }
 
-  .fa-arrow-circle-left {
-    color: #009999;
-    font-size: 25px;
-    margin: 4px;
-    padding: 1px;
-  }
+    .fa-arrow-circle-left {
+        color: #009999;
+        font-size: 35px;
+        margin: 4px;
+        padding: 1px;
+    }
 
-  .fa-arrow-circle-left:hover {
-    color: #FFFFFF;
-    font-size: 25px;
-    margin: 4px;
-    padding: 1px;
-  }
+    .fa-arrow-circle-left:hover {
+        color: #FFFFFF;
+        font-size: 35px;
+        margin: 4px;
+        padding: 1px;
+    }
+    
     .fa-bars {
         color: #FFFFFF;
         font-size: 25px;
@@ -130,7 +131,6 @@
     }
 
     #navbar #logo {
-        float: left;
         color: black;
         text-align: center;
         padding: 10px;
@@ -143,7 +143,7 @@
     #img {
         width: auto;
         height: auto;
-        max-height: 120px;
+        max-height: 100px;
     }
 
     #navbar #logo #img, #subtitle {
