@@ -6,9 +6,8 @@
                     <div class="mb-4">¡Síguenos!</div>
                     <div class="d-flex justify-content-between w-50 mb-5">
                         <a target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-2x fa-facebook items"></i></a>
-                        <a target="_blank" href="https://twitter.com/holazooestudio"><i class="fab fa-2x fa-twitter items"></i></a>
                         <a target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-2x fa-instagram items"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com"><i class="fab fa-2x fa-linkedin items"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/zoo-estudio/"><i class="fab fa-2x fa-linkedin items"></i></a>
                     </div>
                     <div class="d-block mb-4">
                         <span class="fw-bold">Email</span>

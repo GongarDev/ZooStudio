@@ -13,15 +13,19 @@
     >		
       <b-carousel-slide
         caption=""
-        img-src="./assets/imgs/proyectos/antonio_pantion/dormitorio1.jpg"
+        img-src="./assets/imgs/proyectos/ap_l/ap_l_foto_4.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="./assets/imgs/proyectos/antonio_pantion/salon1.jpg"
+        img-src="./assets/imgs/proyectos/ap_l/dormitorio_landscape.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
         caption=""
-        img-src="./assets/imgs/proyectos/antonio_pantion/salon2.jpg"
+        img-src="./assets/imgs/proyectos/ap_l/salon_landscape.jpg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        caption=""
+        img-src="./assets/imgs/proyectos/ap_l/salon2_landscape.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
@@ -42,54 +46,83 @@
     </div>
 
     <h4>Imágenes</h4>
+
+        <div class="card-columns">
+      <div class="card">
+        <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/ap_l/dormitorio.jpg" class="card-img" alt="">
+        <b-modal size="xl" hide-footer=true hide-header=true id="modal-center6">
+          <img src="./assets/imgs/proyectos/ap_l/dormitorio.jpg" class="card-img" alt="">
+        </b-modal>
+      </div>
+      <div class="card">
+        <img v-b-modal.modal-center7 src="./assets/imgs/proyectos/ap_l/dormitorio_bn_landscape.jpg" class="card-img" alt="">
+        <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center7">
+          <img src="./assets/imgs/proyectos/ap_l/dormitorio_bn_landscape.jpg" class="card-img" alt="">
+        </b-modal>
+      </div>
+      <div class="card">
+        <img v-b-modal.modal-center8 src="./assets/imgs/proyectos/ap_l/dormitorio_landscape.jpg" class="card-img" alt="">
+        <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center8">
+          <img src="./assets/imgs/proyectos/ap_l/dormitorio_landscape.jpg" class="card-img" alt="">
+        </b-modal>
+      </div>
+      <div class="card">
+        <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/ap_l/salon_landscape.jpg" class="card-img" alt="">
+        <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <img src="./assets/imgs/proyectos/ap_l/salon_landscape.jpg" class="card-img" alt="">
+        </b-modal>
+      </div>
+      <div class="card">
+        <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/ap_l/salon2.jpg" class="card-img" alt="">
+        <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center10">
+          <img src="./assets/imgs/proyectos/ap_l/salon2.jpg" class="card-img" alt="">
+        </b-modal>
+      </div>
+    </div>
+
     <div class="card-columns">
       <div class="card">
-        <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/antonio_pantion/dormitorio_vertical.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/ap_l/ap_l_foto_5.jpg" class="card-img" alt="">
         <b-modal size="md" centered hide-footer=true hide-header=true id="modal-center1">
-          <img src="./assets/imgs/proyectos/antonio_pantion/dormitorio_vertical.jpg" class="card-img" alt="">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_foto_5.jpg" class="card-img" alt="">
         </b-modal>
       </div>
       <div class="card">
-        <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/antonio_pantion/salon_vertical.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/ap_l/ap_l_foto_2.jpg" class="card-img" alt="">
         <b-modal size="md" hide-footer=true hide-header=true id="modal-center2">
-          <img src="./assets/imgs/proyectos/antonio_pantion/salon_vertical.jpg" class="card-img" alt="">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_foto_2.jpg" class="card-img" alt="">
         </b-modal>
       </div>
       <div class="card">
-        <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/antonio_pantion/salon_vertical1.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/ap_l/ap_l_foto_3.jpg" class="card-img" alt="">
         <b-modal size="md" hide-footer=true hide-header=true id="modal-center3">
-          <img src="./assets/imgs/proyectos/antonio_pantion/salon_vertical1.jpg" class="card-img" alt="">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_foto_3.jpg" class="card-img" alt="">
         </b-modal>
       </div>
     </div>
 
     <div class="card-columns">
       <div class="card">
-        <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/antonio_pantion/dormitorio1.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/ap_l/ap_l_foto_1.jpg" class="card-img" alt="">
         <b-modal size="xl" hide-footer=true hide-header=true id="modal-center4">
-          <img src="./assets/imgs/proyectos/antonio_pantion/dormitorio1.jpg" class="card-img" alt="">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_foto_1.jpg" class="card-img" alt="">
         </b-modal>
       </div>
       <div class="card">
-        <img v-b-modal.modal-center5 src="./assets/imgs/proyectos/antonio_pantion/salon1.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center5 src="./assets/imgs/proyectos/ap_l/ap_l_foto_4.jpg" class="card-img" alt="">
         <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center5">
-          <img src="./assets/imgs/proyectos/antonio_pantion/salon1.jpg" class="card-img" alt="">
-        </b-modal>
-      </div>
-      <div class="card">
-        <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/antonio_pantion/salon2.jpg" class="card-img" alt="">
-        <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center6">
-          <img src="./assets/imgs/proyectos/antonio_pantion/salon2.jpg" class="card-img" alt="">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_foto_4.jpg" class="card-img" alt="">
         </b-modal>
       </div>
     </div>
 
-    <h4>Planigrafía</h4>
+
+    <h4>Planos</h4>
     <div class="card-columns">
       <div class="card">
-        <img v-b-modal.modal-center7 src="./assets/imgs/proyectos/antonio_pantion/plano.jpg" class="card-img" alt="">
-        <b-modal size="xl" hide-footer=true hide-header=true id="modal-center7">
-          <img src="./assets/imgs/proyectos/antonio_pantion/plano.jpg" class="card-img" alt="">
+        <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/ap_l/ap_l_plano.jpg" class="card-img" alt="">
+        <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <img src="./assets/imgs/proyectos/ap_l/ap_l_plano.jpg" class="card-img" alt="">
         </b-modal>
       </div>
     </div>
@@ -106,5 +139,9 @@
 
   h4 {
     margin-top: 30px;
+  }
+
+  .card img {
+    max-height: 627px;
   }
 </style>

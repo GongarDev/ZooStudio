@@ -13,7 +13,7 @@
         </b-card-text>
         <b-card-text class="card_subtitle">
           <div>Arquitecto</div>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin items"></i></a>
+          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/carlos-delgado-gallego-39aa7011b/"><i class="fab fa-linkedin items"></i></a>
           <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
@@ -28,7 +28,7 @@
         </b-card-text>
         <b-card-text class="card_subtitle">
           <div>Arquitecto</div>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin items"></i></a>
+          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/mario-valle-montero/"><i class="fab fa-linkedin items"></i></a>
           <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
@@ -39,11 +39,11 @@
             <h5>currículum</h5>
         </article>
         <b-card-text class="card_title">
-          Nacho Sánchez-Escobero
+          Nacho Figueroa
         </b-card-text>
         <b-card-text class=" card_subtitle">
           <div>Arquitecto</div>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin items"></i></a>
+          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/ignaciosánchezfigueroa"><i class="fab fa-linkedin items"></i></a>
           <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
@@ -54,11 +54,11 @@
             <h5>currículum</h5>
         </article>
         <b-card-text class="card_title">
-          César
+          César Hidalgo
           </b-card-text>
         <b-card-text class=" card_subtitle">
           <div>Arquitecto</div>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com"><i class="fab fa-linkedin items"></i></a>
+          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/c%C3%A9sar-hidalgo-guijo-a51589157/"><i class="fab fa-linkedin items"></i></a>
           <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>

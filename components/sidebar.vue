@@ -17,7 +17,7 @@
               <div class="d-flex bg-dark text-light follow">
                 <b-nav-item target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-facebook-square icons"></i></b-nav-item>
                 <b-nav-item target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-instagram-square icons"></i></b-nav-item>
-                <b-nav-item target="_blank" href="https://twitter.com/holazooestudio"><i class="fab fa-twitter-square icons"></i></b-nav-item>
+                <b-nav-item target="_blank" href="https://www.linkedin.com/company/zoo-estudio/"><i class="fab fa-linkedin icons"></i></b-nav-item>
               </div>
 
             </b-nav>
