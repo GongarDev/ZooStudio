@@ -82,22 +82,15 @@ module.exports = {
 		font-weight: bold;
 	}
 
-  .tales {
-    width: 100%;
-    min-height: 100%;
-  }
-
   .carousel-inner {
     min-height: 100vh !important;
     max-height: 100vh !important;
   }
   
   .carousel-item img {
-    min-height: min-content !important;
-    max-height: 100vh !important;
-    height:100vh!important;
-
-    width: auto;
+    object-fit: cover;
+    min-height: 100vh !important;
+    max-height: 100vh !important;   
   }
 
   .carousel {

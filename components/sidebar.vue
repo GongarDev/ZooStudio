@@ -1,9 +1,9 @@
 <template>
   <div>
     <b-button v-b-toggle.sidebar-right class="btn"><i class="fas fa-bars fa-x3"></i></b-button>
-    <b-sidebar id="sidebar-right" bg-variant="dark" title="" right shadow backdrop>
+    <b-sidebar id="sidebar-right"  width="180px" bg-variant="dark" title="" right shadow backdrop>
       <div class="px-3 py-2 w-100 h-100">
-          <nav class="mb-3 w-100 h-100">
+          <nav class="mb-1 w-100 h-100">
             <b-nav vertical class="navi w-100 h-100">
 
               <div>
@@ -124,8 +124,10 @@
 
   .follow {
     display: flex;
-    align-items: flex-end;
+    align-items:center;
+    flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
     color: #009999;
     margin: 2px;
     padding: 5px 5px;
