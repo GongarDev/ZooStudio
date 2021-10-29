@@ -77,11 +77,13 @@
     .card-body {
         padding: 0;
     }
+    
     .contenedor {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     h1 {
@@ -94,6 +96,7 @@
         overflow: hidden;
         max-width: 300px;
         max-height: 300px;
+        margin-right: 30px;
     }
 
     .container_foto article {
