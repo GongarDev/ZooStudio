@@ -97,6 +97,7 @@
         max-width: 300px;
         max-height: 300px;
         margin-right: 30px;
+        margin-left: 30px;
     }
 
     .container_foto article {

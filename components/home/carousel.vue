@@ -11,14 +11,13 @@
       img-height="auto"
       no-hover-pause
     >		
+
       <div class="title">
 		    <div class="logo">
 			    <img src="./assets/imgs/logo.png" alt="" />
 		    </div>
-		    <div class="subtitle">
-			    <p>ESTUDIO DE ARQUITECTURA</p>
-		    </div>
 	    </div>
+
       <b-carousel-slide
         caption=""
         img-src="./assets/imgs/carousel/Animal_1.jpg"
@@ -46,6 +45,7 @@
 <script>
 module.exports = {
     name: "carousel",
+    mixins: [zoo],
     data() {
         return {};
     },
@@ -54,20 +54,25 @@ module.exports = {
 
 <style scoped>
 
-  .title{
+
+
+  /* .titleMobile{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items:flex-start;
+    margin-left:100px;
+
   }
 
-  .logo {
+  .logoMoible {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     z-index: 2;
     position: absolute;
-    height: 20%;
-    max-width: 30%;
-    padding-top: 10px;
-  }
+    height: 10%;
+    max-width: 10%;
+    padding-top: 30px;
+  } */
 
 	.subtitle {
 		display: none;
@@ -99,18 +104,66 @@ module.exports = {
     max-height: 100vh !important;
   }
 
-    /* Smaller than standard 960 (devices and browsers) */
-  @media only screen and (max-width: 959px) {}
+  /* bigger than standard 960 (devices and browsers) */
+  @media only screen and (min-width: 959px) {
+    .title{
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+      position: absolute;
+      height: 20%;
+      max-width: 30%;
+      padding-top: 10px;
+    }
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {
+    .title{
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+      position: absolute;
+      height: 20%;
+      max-width: 30%;
+      padding-top: 10px;
+    }
+  }
 
   /* Tablet Portrait size to standard 960 (devices and browsers) */
   @media only screen and (min-width: 768px) and (max-width: 959px) {}
 
   /* All Mobile Sizes (devices and browser) */
-  @media only screen and (max-width: 767px) {}
+  @media only screen and (max-width: 767px) { }
 
   /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) {
+    .title{
+      display: flex;
+      justify-content: left;
+      align-items:flex-start;
+      margin-left:100px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+      position: absolute;
+      height: 12%;
+    }
+  }
 </style>

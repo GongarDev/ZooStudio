@@ -6,9 +6,9 @@
         <div class="proyectos_card">
             <proyectos_card></proyectos_card>
         </div>
-        <div class="footerbar">
+        <footer class="footerbar">
             <footerbar></footerbar>
-        </div>
+        </footer>
 	</div>
 </template>
 <script>
@@ -38,6 +38,12 @@
     .proyectos_card {
         padding-top: 200px;
         width: auto;
+        margin-bottom: 0px;
+        min-height: 95vh;
+    }
+
+    .footerbar {
+        margin-bottom: 0;
     }
     
 </style>

@@ -38,7 +38,7 @@ function initVue() {
     app = new Vue({
         el: "#app",
         router,
-        mixins: [],
+        mixins: [zoo],
         data() {
             return {
                 theme: "",
