@@ -34,14 +34,14 @@
             document.getElementById("navbar").style.padding = "4px 10px";
             document.getElementById("logo").style.fontSize = "25px";
             document.getElementById("img").style.height = "35px";
-            document.getElementById("subtitle").style.fontSize = "16px";
+            // document.getElementById("subtitle").style.fontSize = "16px";
             document.getElementById("logo").style.fontWeight = "normal";
 
         } else {
             document.getElementById("navbar").style.padding = "8px 10px";
             document.getElementById("logo").style.fontSize = "smaller";
             document.getElementById("img").style.height = "100px";
-            document.getElementById("subtitle").style.fontSize = "smaller";
+            // document.getElementById("subtitle").style.fontSize = "smaller";
 
         }
     }

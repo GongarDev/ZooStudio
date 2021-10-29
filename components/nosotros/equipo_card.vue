@@ -2,7 +2,6 @@
   <div class="container">
     <h4 class="title"></h4>
     <b-card-group deck>
-      
       <b-card class="card" img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
@@ -78,6 +77,11 @@
 </script>
 
 <style scoped>
+
+  .card-deck {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .title {
     font-weight: bold;

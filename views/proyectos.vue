@@ -39,12 +39,5 @@
         padding-top: 200px;
         width: auto;
     }
-
-    .footerbar {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        z-index: -2;
-    }
     
 </style>

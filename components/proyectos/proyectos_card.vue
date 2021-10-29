@@ -1,22 +1,62 @@
 <template>
+
     <div class="container text-center">
+
+        <!-- Row 1  -->
         <b-card-group class="contenedor text-center">
-            <b-card id="ap_l" class="container_foto rounded-circle" @mouseover="hover('ap_l')" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/ap_l/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="ap_l" class="container_foto rounded-circle" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/ap_l/cabecera.jpg" img-alt="Image" img-top>
                 <article>
                     <img src="./assets/imgs/proyectos/ap_l/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>
             </b-card>
 
-            <b-card class="container_foto rounded-circle" @click="$router.push( {name:'ms_xv'} )" img-src="./assets/imgs/proyectos/merida/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="ms_xv" class="container_foto rounded-circle" @click="$router.push( {name:'ms_xv'} )" img-src="./assets/imgs/proyectos/ms_xv/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/ms_xv/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
             </b-card>
 
-            <b-card class="container_foto rounded-circle" img-src="https://placekitten.com/g/300/300" img-alt="Image" img-top>
-                <article class="row">
-                    <h2>Proyecto <br>Nº 3</h2>
-                    <h4>Próximamente...</h4>
+            <b-card id="ln_xlll" class="container_foto rounded-circle" @click="$router.push( {name:'ln_xlll'} )" img-src="./assets/imgs/proyectos/ln_xlll/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/ln_xlll/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
+            </b-card>            
+        </b-card-group>
+
+        <!-- Row 2 -->
+        <b-card-group class="contenedor text-center">         
+            <b-card id="mf_xll" class="container_foto rounded-circle" @click="$router.push( {name:'mf_xll'} )" img-src="./assets/imgs/proyectos/mf_xll/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/mf_xll/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
+            </b-card>
+
+            <b-card id="pr_vlll" class="container_foto rounded-circle" @click="$router.push( {name:'pr_vlll'} )" img-src="./assets/imgs/proyectos/pr_vlll/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/pr_vlll/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
+            </b-card>
+            <b-card id="proximamente" class="container_foto rounded-circle" @click="$router.push( {name:'prox'} )" img-src="https://placekitten.com/g/300/300" img-alt="Image" img-top>
+                <article class="prox">
+                    <h2>Próximamente...</h2>
                 </article>
             </b-card>
+
+        </b-card-group>
+
+        <!-- Row 3 -->
+        <b-card-group class="contenedor text-center">
+            <!-- <b-card id="vr_xlv" class="container_foto rounded-circle" @click="$router.push( {name:'vr_xlv'} )" img-src="./assets/imgs/proyectos/vr_xlv/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/vr_xlv/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
+            </b-card> -->
         </b-card-group>
      </div>
 
@@ -34,9 +74,14 @@
 
 <style scoped>
 
+    .card-body {
+        padding: 0;
+    }
     .contenedor {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
     }
 
     h1 {
@@ -70,17 +115,35 @@
         transition: all 2s ease;
     }
 
-    .container_foto h2 {
+    .container_foto article h2{
+        display: flex;
+        align-items: center;
         color: #fff;
         font-weight: 800;
         font-size: 25px;
         border-bottom: #fff solid 1px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: all 2s ease;
+        -moz-transition: all 2s ease;
+        -o-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+        transition: all 2s ease;
     }
 
-    .container_foto h4 {
-        font-weight: 300;
-        color: #fff;
-        font-size: 16px;
+    .prox{
+        width: 100%;
+        top: 0;
+        bottom: 0;
+
+        right: 0;  
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
 
     /*hovers*/
@@ -96,5 +159,9 @@
     .container_foto:hover .bg {
         opacity: 1;
         z-index: -1;
+    }
+    .container_foto:hover h2 {
+        opacity: 1;
+        z-index: -2;
     }
 </style>
