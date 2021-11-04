@@ -30,16 +30,12 @@
     <b-container>
       <div>
           <b-div fluid="sm">
-              <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
-              <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
-
-              <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
-                  Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
-
-              <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
-                  lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
-
-              <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
+              <p><b>Año:</b> 2021</p>
+              <p><b>Ubicación:</b> Sevilla</p>
+              <p><b>Estado:</b> Terminado</p>
+              <p><b>Superficie:</b> 97 m2</p>
+              <p><b>Descripción:<br/></b> La pasión por la cocina del cliente fue el punto de partida en el diseño de esta vivienda. 
+              La cocina se encuentra en el corazón de la casa de forma que articula el resto de espacios comunes.</p>
           </b-div>
       </div>
 

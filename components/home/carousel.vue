@@ -2,7 +2,7 @@
   <div id="carousel">
     <b-carousel
       id="carousel-fade"
-      :interval="3000"
+      :interval="2500"
       style="text-shadow: 0px 0px 2px #000"
       controls
       fade

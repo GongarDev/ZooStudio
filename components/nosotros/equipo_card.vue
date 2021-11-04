@@ -2,7 +2,7 @@
   <div class="container">
     <h4 class="title"></h4>
     <b-card-group deck>
-      <b-card class="card" img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+      <b-card class="card" img-src="./assets/imgs/nosotros/animales_carlos.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -17,7 +17,7 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animales_cesar.png" img-alt="Image" img-top>
         <article class="row">
           <h5>Descripción</h5>
           <h5>currículum</h5>
@@ -32,7 +32,7 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animales_carlos.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -47,7 +47,7 @@
         </b-card-text>
       </b-card>
 
-      <b-card img-src="https://picsum.photos/200/300" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animales_cesar.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -93,6 +93,7 @@
     border-radius: 0px;
     text-align: center;
     font-family: 'Roboto';
+    background-color: transparent;
   }
 
   .card img {
@@ -164,5 +165,9 @@
   .card:hover article {
     display: flex;
     opacity: 1;
+  }
+
+  .container {
+    margin-bottom: 50px;
   }
 </style>

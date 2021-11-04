@@ -1,10 +1,10 @@
 <template>
-	<div class="prox">
+	<div class="vr_xlv">
     <div class="topbar">
 			<topbar></topbar>
 		</div>
-      <div class="card_prox">
-        <card_prox></card_prox>
+      <div class="card_vr">
+        <card_vr></card_vr>
       </div>
     <div class="footerbar">
         <footerbar></footerbar>
@@ -14,15 +14,15 @@
 
 <script>
 	module.exports = {
-		name: 'prox',
+		name: 'vr_xlv',
 		data() {
 			return {
-				section: "prox",
+				section: "vr_xlv",
 			};
 		},
 		components: {
       topbar: httpVueLoader("../../components/topbar.vue"),
-      card_prox: httpVueLoader("../../components/proyectos/card_prox.vue"),
+      card_vr: httpVueLoader("../../components/proyectos/card_vr.vue"),
       footerbar: httpVueLoader("../../components/footerbar.vue"),           
 		},
 	};
@@ -30,9 +30,8 @@
 
 <style scoped>
 
-    .card_prox {
-        margin-top: 100px;
+    .card_vr {
+        margin-top: 200px;
         width: auto;
     }
-
 </style>

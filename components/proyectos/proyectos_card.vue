@@ -41,22 +41,22 @@
                     <div class="bg"></div>
                 </article>            
             </b-card>
-            <b-card id="proximamente" class="container_foto rounded-circle" @click="$router.push( {name:'prox'} )" img-src="https://placekitten.com/g/300/300" img-alt="Image" img-top>
-                <article class="prox">
-                    <h2>Próximamente...</h2>
-                </article>
+            <b-card id="vr_xlv" class="container_foto rounded-circle" @click="$router.push( {name:'vr_xlv'} )" img-src="./assets/imgs/proyectos/vr_xlv/cabecera.jpg" img-alt="Image" img-top>
+                <article>
+                    <img src="./assets/imgs/proyectos/vr_xlv/cabecera_titulo.png">
+                    <div class="bg"></div>
+                </article>            
             </b-card>
 
         </b-card-group>
 
         <!-- Row 3 -->
         <b-card-group class="contenedor text-center">
-            <!-- <b-card id="vr_xlv" class="container_foto rounded-circle" @click="$router.push( {name:'vr_xlv'} )" img-src="./assets/imgs/proyectos/vr_xlv/cabecera.jpg" img-alt="Image" img-top>
-                <article>
-                    <img src="./assets/imgs/proyectos/vr_xlv/cabecera_titulo.png">
-                    <div class="bg"></div>
-                </article>            
-            </b-card> -->
+            <b-card id="proximamente" class="container_foto rounded-circle" @click="$router.push( {name:'prox'} )" img-src="https://placekitten.com/g/300/300" img-alt="Image" img-top>
+                <article class="prox">
+                    <h2>Próximamente...</h2>
+                </article>
+            </b-card>
         </b-card-group>
      </div>
 
@@ -87,7 +87,7 @@
     }
 
     h1 {
-        color: #FCFBFA;
+        color: #aa9e91;
     }
 
     .container_foto {
@@ -158,11 +158,11 @@
 
     .container_foto:hover img {
         opacity: 1;
-        z-index: -2;
+        z-index: 0;
     }
     .container_foto:hover .bg {
         opacity: 1;
-        z-index: -1;
+        z-index: 1;
     }
     .container_foto:hover h2 {
         opacity: 1;

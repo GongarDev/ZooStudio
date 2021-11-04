@@ -30,16 +30,15 @@
     <b-container>
       <div>
           <b-div fluid="sm">
-              <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
-              <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
-
-              <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
-                  Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
-
-              <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
-                  lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
-
-              <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
+              <p><b>Año:</b> 2020</p>
+              <p><b>Ubicación:</b> Sevilla</p>
+              <p><b>Estado:</b> Pendiente de tramitación de licencia</p>
+              <p><b>Superficie:</b> 142 m2</p>
+              <p><b>Descripción:<br/></b> El proyecto parte de la decisión de iluminar el antiguo local a través de los huecos de fachada, 
+              es por ello que se articula mediante espacios diáfanos y elementos permeables que permiten la entrada de luz.
+              Optamos por un diseño atemporal que se adaptara a las necesidades y gustos de cualquier posible inquilino.
+              Los tonos claros del suelo y paredes inundan de luz el interior. 
+              La paleta de color la proporcionan los elementos textiles y la vegetación. </p>
           </b-div>
       </div>
 

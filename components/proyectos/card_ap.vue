@@ -34,16 +34,15 @@
     <b-container>
       <div>
           <b-div fluid="sm">
-              <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
-              <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
-
-              <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
-                  Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
-
-              <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
-                  lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
-
-              <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
+              <p><b>Año:</b> 2020</p>
+              <p><b>Ubicación:</b> Sevilla</p>
+              <p><b>Estado:</b> Terminado</p>
+              <p><b>Superficie:</b> 37 m2</p>
+              <p><b>Descripción:<br/></b> Este proyecto de pequñas dimesiones liberamos superficie del resto de habitaciones de la casa
+                 para cedérselos al salón y crear un recibidor en la entrada. El mobiliario y los muebles de cocina 
+                 quedan integrados con la arquitectura para un mejor aprovechamiento del espacio. 
+                 La iluminación de la vivienda y la amplitud de las ventanas nos brindó la oportunidad de emplear 
+                 mobiliario colorido y papeles pintados en las paredes interiores.</p>
           </b-div>
       </div>
 

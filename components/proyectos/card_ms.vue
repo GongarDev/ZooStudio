@@ -30,16 +30,15 @@
     <b-container>
       <div>
           <b-div fluid="sm">
-              <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
-              <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
-
-              <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
-                  Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
-
-              <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
-                  lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
-
-              <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
+              <p><b>Año:</b> 2021</p>
+              <p><b>Ubicación:</b> Mérida</p>
+              <p><b>Estado:</b> Terminado</p>
+              <p><b>Superficie:</b> 90 m2</p>
+              <p><b>Descripción:<br/></b>En este proyecto de vivienda se encuentran lo tradicional y lo moderno. 
+              La secuencia fluida de los espacios comunes, salón-comedor-cocina, responde a una estrategia contemporánea 
+              mientras que el diseño de interiores evoca a las casas tradicionales.  
+              El uso de carpinterías, contraventanas y mobiliario de madera hacen acogedora a la vivienda mientras la plantas 
+              y la decoración propuesta aportan pequeñas pinceladas de color al conjunto.</p>
           </b-div>
       </div>
 

@@ -1,6 +1,5 @@
 <template>
     <b-container fluid="sm">
-        
         <div class="row">
             <div class="col-sm-6">
                 <div>
@@ -35,7 +34,6 @@
 </template>
 
 <script>
-
     module.exports = {
         name: "description",
         data() {
@@ -44,3 +42,8 @@
         },
     };
 </script>
+<style scoped>
+    h5 {
+        padding-top:50px;
+    }
+</style>

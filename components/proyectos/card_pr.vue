@@ -26,16 +26,13 @@
     <b-container>
       <div>
           <b-div fluid="sm">
-              <h5><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h5>
-              <p><b>ZOÒ</b> Aenean eu risus aliquam, pulvinar arcu non, consectetur leo. Integer eget orci quis neque cursus fringilla.
-
-              <p>Proin nunc tortor, sodales eu purus vitae, sollicitudin commodo eros. Vestibulum ullamcorper ornare quam ut tempor.
-                  Sed sodales, dui non fermentum facilisis, mi massa mattis erat, vel rhoncus lorem ligula a tortor.</p>
-
-              <p>Vestibulum consequat, nisi blandit ullamcorper fringilla, 
-                  lorem tortor porttitor eros, lacinia consequat enim leo non ex. Nulla vel ipsum eu eros posuere cursus.</p>
-
-              <p>Ergo <b>ZOÒ</b>et etiam pulvinar odio sed elementum dapibus.</p>
+              <p><b>Año:</b> 2021</p>
+              <p><b>Ubicación:</b> Sevilla</p>
+              <p><b>Estado:</b> En ejecución</p>
+              <p><b>Superficie:</b> 9 m2</p>
+              <p><b>Descripción:<br/></b> Se presentaron varios proyectos de diseño para la clienta cada uno con una paleta de color 
+              y texturas diferentes. La posibilidad de visualizar el resultado final fue determinante para la elección de la posición 
+              y materiales del mobiliario.</p>
           </b-div>
       </div>
 
