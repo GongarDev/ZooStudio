@@ -4,9 +4,9 @@
 
         <!-- Row 1  -->
         <b-card-group class="contenedor text-center">
-            <b-card id="ap_l" class="container_foto rounded-circle" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/ap_l/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="ap_l" class="container_foto rounded-circle" @click="$router.push( {name:'ap_l'} )" img-src="./assets/imgs/proyectos/AP_I/cabecera.jpg" img-alt="Image" img-top>
                 <article>
-                    <img src="./assets/imgs/proyectos/ap_l/cabecera_titulo.png">
+                    <img src="./assets/imgs/proyectos/AP_I/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>
             </b-card>
@@ -18,9 +18,9 @@
                 </article>            
             </b-card>
 
-            <b-card id="ln_xlll" class="container_foto rounded-circle" @click="$router.push( {name:'ln_xlll'} )" img-src="./assets/imgs/proyectos/LN_Xlll/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="ln_xlll" class="container_foto rounded-circle" @click="$router.push( {name:'ln_xlll'} )" img-src="./assets/imgs/proyectos/LN_XIII/cabecera.jpg" img-alt="Image" img-top>
                 <article>
-                    <img src="./assets/imgs/proyectos/LN_Xlll/cabecera_titulo.png">
+                    <img src="./assets/imgs/proyectos/LN_XIII/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>            
             </b-card>            
@@ -28,22 +28,22 @@
 
         <!-- Row 2 -->
         <b-card-group class="contenedor text-center">         
-            <b-card id="mf_xll" class="container_foto rounded-circle" @click="$router.push( {name:'mf_xll'} )" img-src="./assets/imgs/proyectos/mf_xll/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="mf_xll" class="container_foto rounded-circle" @click="$router.push( {name:'mf_xll'} )" img-src="./assets/imgs/proyectos/MF_XII/cabecera.jpg" img-alt="Image" img-top>
                 <article>
-                    <img src="./assets/imgs/proyectos/mf_xll/cabecera_titulo.png">
+                    <img src="./assets/imgs/proyectos/MF_XII/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>            
             </b-card>
 
-            <b-card id="pr_vlll" class="container_foto rounded-circle" @click="$router.push( {name:'pr_vlll'} )" img-src="./assets/imgs/proyectos/pr_vlll/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="pr_vlll" class="container_foto rounded-circle" @click="$router.push( {name:'pr_vlll'} )" img-src="./assets/imgs/proyectos/PR_VIII/cabecera.jpg" img-alt="Image" img-top>
                 <article>
-                    <img src="./assets/imgs/proyectos/pr_vlll/cabecera_titulo.png">
+                    <img src="./assets/imgs/proyectos/PR_VIII/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>            
             </b-card>
-            <b-card id="vr_xlv" class="container_foto rounded-circle" @click="$router.push( {name:'vr_xlv'} )" img-src="./assets/imgs/proyectos/vr_xlv/cabecera.jpg" img-alt="Image" img-top>
+            <b-card id="vr_xlv" class="container_foto rounded-circle" @click="$router.push( {name:'vr_xlv'} )" img-src="./assets/imgs/proyectos/VR_XLV/cabecera.jpg" img-alt="Image" img-top>
                 <article>
-                    <img src="./assets/imgs/proyectos/vr_xlv/cabecera_titulo.png">
+                    <img src="./assets/imgs/proyectos/VR_XLV/cabecera_titulo.png">
                     <div class="bg"></div>
                 </article>            
             </b-card>

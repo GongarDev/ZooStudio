@@ -39,21 +39,21 @@
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/pr_vlll/C1PostV1.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/PR_VIII/C1PostV1.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
-            <img src="./assets/imgs/proyectos/pr_vlll/C1PostV1.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/PR_VIII/C1PostV1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/pr_vlll/OP3_POST.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/PR_VIII/OP3_POST.jpg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
-            <img src="./assets/imgs/proyectos/pr_vlll/OP3_POST.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/PR_VIII/OP3_POST.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/pr_vlll/foto1.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/PR_VIII/foto1.jpg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
-            <img src="./assets/imgs/proyectos/pr_vlll/foto1.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/PR_VIII/foto1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>

@@ -14,15 +14,15 @@
       >		
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/mf_xll/C1.jpeg"
+          img-src="./assets/imgs/proyectos/MF_XII/C1.jpeg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/mf_xll/C2.jpeg"
+          img-src="./assets/imgs/proyectos/MF_XII/C2.jpeg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/mf_xll/C3.jpeg"
+          img-src="./assets/imgs/proyectos/MF_XII/C3.jpeg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -45,21 +45,21 @@
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/mf_xll/C1.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/MF_XII/C1.jpeg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
-            <img src="./assets/imgs/proyectos/mf_xll/C1.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/MF_XII/C1.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/mf_xll/C2.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/MF_XII/C2.jpeg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
-            <img src="./assets/imgs/proyectos/mf_xll/C2.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/MF_XII/C2.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/mf_xll/C3.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/MF_XII/C3.jpeg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
-            <img src="./assets/imgs/proyectos/mf_xll/C3.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/MF_XII/C3.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>
@@ -67,15 +67,15 @@
       <h4>Planos</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/mf_xll/MF_XII_plano_ea.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/MF_XII/MF_XII_plano_ea.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
-            <img src="./assets/imgs/proyectos/mf_xll/MF_XII_plano_ea.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/MF_XII/MF_XII_plano_ea.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/mf_xll/MF_XII_plano_er.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/MF_XII/MF_XII_plano_er.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
-            <img src="./assets/imgs/proyectos/mf_xll/MF_XII_plano_er.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/MF_XII/MF_XII_plano_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>

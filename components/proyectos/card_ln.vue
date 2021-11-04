@@ -14,15 +14,15 @@
       >		
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/ln_xlll/cocina_render.jpeg"
+          img-src="./assets/imgs/proyectos/LN_XIII/cocina_render.jpeg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/ln_xlll/salon_estudio_render.jpg"
+          img-src="./assets/imgs/proyectos/LN_XIII/salon_estudio_render.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/ln_xlll/salon_render.jpeg"
+          img-src="./assets/imgs/proyectos/LN_XIII/salon_render.jpeg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -42,30 +42,30 @@
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/ln_xlll/cocina_obra.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/LN_XIII/cocina_obra.jpeg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
-            <img src="./assets/imgs/proyectos/ln_xlll/cocina_obra.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/cocina_obra.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/ln_xlll/salon_obra.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/LN_XIII/salon_obra.jpeg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
-            <img src="./assets/imgs/proyectos/ln_xlll/salon_obra.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/salon_obra.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>
       
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/ln_xlll/salon_er.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/LN_XIII/salon_er.jpg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
-            <img src="./assets/imgs/proyectos/ln_xlll/salon_er.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/salon_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/ln_xlll/cocina_render.jpeg" class="card-img" alt="">
+          <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/LN_XIII/cocina_render.jpeg" class="card-img" alt="">
           <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center4">
-            <img src="./assets/imgs/proyectos/ln_xlll/cocina_render.jpeg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/cocina_render.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>
@@ -73,15 +73,15 @@
       <h4>Planos</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/ln_xlll/LN_XIII_plano_ea.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_ea.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
-            <img src="./assets/imgs/proyectos/ms_xv/LN_XIII_plano_ea.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_ea.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/ln_xlll/LN_XIII_plano_er.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_er.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
-            <img src="./assets/imgs/proyectos/ms_xv/LN_XIII_plano_er.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>
