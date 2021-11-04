@@ -14,11 +14,11 @@
       >		
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/ms_xv/bano1.jpg"
+          img-src="./assets/imgs/proyectos/MS_XV/bano1.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/ms_xv/bano2.jpg"
+          img-src="./assets/imgs/proyectos/MS_XV/bano2.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""

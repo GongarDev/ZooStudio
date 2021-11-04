@@ -14,7 +14,7 @@
       >		
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/vr_xlv/C1_Post.jpg"
+          img-src="./assets/imgs/proyectos/VR_XLV/C1_Post.jpg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -40,9 +40,9 @@
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/vr_xlv/C1_Post.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/VR_XLV/C1_Post.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center6">
-            <img src="./assets/imgs/proyectos/vr_xlv/C1_Post.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/VR_XLV/C1_Post.jpg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>
@@ -59,21 +59,21 @@
       <h4>Planos</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/vr_xlv/vr_xlv_croquis.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_croquis.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
-            <img src="./assets/imgs/proyectos/vr_xlv/vr_xlv_croquis.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_croquis.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/vr_xlv/vr_xlv_er.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_er.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
-            <img src="./assets/imgs/proyectos/vr_xlv/vr_xlv_er.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
-          <img v-b-modal.modal-center11 src="./assets/imgs/proyectos/vr_xlv/vr_xlv_esquema.jpg" class="card-img" alt="">
+          <img v-b-modal.modal-center11 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_esquema.jpg" class="card-img" alt="">
           <b-modal size="xl" hide-footer=true hide-header=true id="modal-center11">
-            <img src="./assets/imgs/proyectos/vr_xlv/vr_xlv_esquema.jpg" class="card-img" alt="">
+            <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_esquema.jpg" class="card-img" alt="">
           </b-modal>
         </div>
       </div>

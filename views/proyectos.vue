@@ -48,7 +48,7 @@
 
     .proyectos {
         background-color: transparent;
-        background-image: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)), url("/assets/imgs/background.png");
+        background-image: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)), url("../assets/imgs/background.png");
         background-repeat:no-repeat;
         background-position:center center;
         background-attachment:fixed;

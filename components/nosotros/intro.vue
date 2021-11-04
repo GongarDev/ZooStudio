@@ -32,6 +32,5 @@ module.exports = {
 <style scoped>
     h5 {
         padding-top:50px;
-
     }
 </style>

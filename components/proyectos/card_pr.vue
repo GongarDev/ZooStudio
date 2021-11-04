@@ -14,11 +14,11 @@
       >		
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/pr_vlll/C1PostV1.jpg"
+          img-src="./assets/imgs/proyectos/PR_VIII/C1PostV1.jpg"
         ></b-carousel-slide>
         <b-carousel-slide
           caption=""
-          img-src="./assets/imgs/proyectos/pr_vlll/OP3_POST.jpg"
+          img-src="./assets/imgs/proyectos/PR_VIII/OP3_POST.jpg"
         ></b-carousel-slide>
       </b-carousel>
     </div>
