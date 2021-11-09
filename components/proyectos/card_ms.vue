@@ -29,7 +29,7 @@
     <!-- Text and imgs -->
     <b-container>
       <div>
-          <b-div fluid="sm">
+          <div fluid="sm">
               <p><b>Año:</b> 2021</p>
               <p><b>Ubicación:</b> Mérida</p>
               <p><b>Estado:</b> Terminado</p>
@@ -39,38 +39,38 @@
               mientras que el diseño de interiores evoca a las casas tradicionales.  
               El uso de carpinterías, contraventanas y mobiliario de madera hacen acogedora a la vivienda mientras la plantas 
               y la decoración propuesta aportan pequeñas pinceladas de color al conjunto.</p>
-          </b-div>
+          </div>
       </div>
 
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/MS_XV/bano2_vertical.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
+          <b-modal size="xl" hide-footer hide-header id="modal-center1">
             <img src="./assets/imgs/proyectos/MS_XV/bano2_vertical.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/MS_XV/bano1.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center2">
             <img src="./assets/imgs/proyectos/MS_XV/bano1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/MS_XV/bano2.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center3">
             <img src="./assets/imgs/proyectos/MS_XV/bano2.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/MS_XV/salon1.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center4">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center4">
             <img src="./assets/imgs/proyectos/MS_XV/salon1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center5 src="./assets/imgs/proyectos/MS_XV/salon_vertical.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center5">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center5">
             <img src="./assets/imgs/proyectos/MS_XV/salon2.jpg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -80,13 +80,13 @@
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/MS_XV/plano_er.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <b-modal size="xl" hide-footer hide-header id="modal-center9">
             <img src="./assets/imgs/proyectos/MS_XV/ap_l_plano.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/MS_XV/plano_ea.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
+          <b-modal size="xl" hide-footer hide-header id="modal-center10">
             <img src="./assets/imgs/proyectos/MS_XV/ap_l_plano.jpg" class="card-img" alt="">
           </b-modal>
         </div>

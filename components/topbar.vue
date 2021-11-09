@@ -48,10 +48,6 @@
 </script>
 <style scoped>
 
-    .sidebar {
-        margin-right: 50px;
-    }
-
     .fa-arrow-circle-left {
         color: #009999;
         font-size: 35px;
@@ -77,11 +73,8 @@
         background: transparent;
         border: none;
         outline:0;
-        padding: 2px 4px;
         text-align: center;
         font-size: 16px;
-        margin: 20px 1px;
-        margin-left: 50px;
         transition: 0.3s;
     }
 
@@ -172,6 +165,36 @@
         #navbar-right {
             float: none;
         }
+    }
+
+    @media only screen and (max-width: 379px) {
+        .btn {
+            margin-left: 5px;
+            padding: 2px 4px;
+        }
+        .sidebar {
+            margin-right: 5px;
+        }
+    }
+
+    @media only screen and (min-width: 379px) and (max-width: 479px) {
+        .btn {
+            margin-left: 10px;
+            padding: 5px 4px;
+        }
+        .sidebar {
+            margin-right: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 479px) {
+        .btn {
+            margin-left: 50px;
+            padding: 5px 4px;
+        }
+        .sidebar {
+            margin-right: 45px;
+        }        
     }
 
     .routerLink {

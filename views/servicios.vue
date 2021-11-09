@@ -3,9 +3,9 @@
         <div class="topbar">
 			<topbar></topbar>
 		</div>
-        <div class="description">
+        <!-- <div class="description">
             <description></description>
-        </div>
+        </div> -->
         <div class="workflow">
             <workflow></workflow>
         </div>        
@@ -50,6 +50,12 @@
         width: auto;  
         margin-bottom: 25px;
 
+    }
+
+    .workflow{
+        margin-top: 150px;
+        width: auto;  
+        margin-bottom: 25px;
     }
 
     .servicios {

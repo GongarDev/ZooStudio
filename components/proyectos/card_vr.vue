@@ -21,7 +21,7 @@
     <!-- Text and imgs -->
     <b-container>
       <div>
-          <b-div fluid="sm">
+          <div fluid="sm">
               <p><b>Año:</b> 2021</p>
               <p><b>Ubicación:</b> Huelva</p>
               <p><b>Estado:</b> Anteproyecto</p>
@@ -34,14 +34,14 @@
                 Para ello se construye la siguiente secuencia: zaguán-vestíbulo-patio cubierto-estar-comedor-cocina-patio-soberao. 
                 En ellos la luz natural va apreciendo de forma gradual a la vez que se introducen elementos como plantas, texturas 
                 y colores que complementan la experiencia doméstica.</p>
-          </b-div>
+          </div>
       </div>
 
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/VR_XLV/C1_Post.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center6">
+          <b-modal size="xl" hide-footer hide-header id="modal-center6">
             <img src="./assets/imgs/proyectos/VR_XLV/C1_Post.jpg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -60,19 +60,19 @@
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_croquis.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <b-modal size="xl" hide-footer hide-header id="modal-center9">
             <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_croquis.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_er.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
+          <b-modal size="xl" hide-footer hide-header id="modal-center10">
             <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center11 src="./assets/imgs/proyectos/VR_XLV/VR_XLV_esquema.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center11">
+          <b-modal size="xl" hide-footer hide-header id="modal-center11">
             <img src="./assets/imgs/proyectos/VR_XLV/VR_XLV_esquema.jpg" class="card-img" alt="">
           </b-modal>
         </div>

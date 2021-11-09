@@ -29,27 +29,27 @@
     <!-- Text and imgs -->
     <b-container>
       <div>
-          <b-div fluid="sm">
+          <div fluid="sm">
               <p><b>Año:</b> 2021</p>
               <p><b>Ubicación:</b> Sevilla</p>
               <p><b>Estado:</b> Terminado</p>
               <p><b>Superficie:</b> 97 m2</p>
               <p><b>Descripción:<br/></b> La pasión por la cocina del cliente fue el punto de partida en el diseño de esta vivienda. 
               La cocina se encuentra en el corazón de la casa de forma que articula el resto de espacios comunes.</p>
-          </b-div>
+          </div>
       </div>
 
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/LN_XIII/cocina_obra.jpeg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
+          <b-modal size="xl" hide-footer hide-header id="modal-center1">
             <img src="./assets/imgs/proyectos/LN_XIII/cocina_obra.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/LN_XIII/salon_obra.jpeg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center2">
             <img src="./assets/imgs/proyectos/LN_XIII/salon_obra.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -58,13 +58,13 @@
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/LN_XIII/salon_er.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center3">
             <img src="./assets/imgs/proyectos/LN_XIII/salon_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/LN_XIII/cocina_render.jpeg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center4">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center4">
             <img src="./assets/imgs/proyectos/LN_XIII/cocina_render.jpeg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -74,13 +74,13 @@
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_ea.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <b-modal size="xl" hide-footer hide-header id="modal-center9">
             <img src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_ea.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_er.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center10">
+          <b-modal size="xl" hide-footer hide-header id="modal-center10">
             <img src="./assets/imgs/proyectos/LN_XIII/LN_XIII_plano_er.jpg" class="card-img" alt="">
           </b-modal>
         </div>

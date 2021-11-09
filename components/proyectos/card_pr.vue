@@ -25,7 +25,7 @@
     <!-- Text and imgs -->
     <b-container>
       <div>
-          <b-div fluid="sm">
+          <div fluid="sm">
               <p><b>Año:</b> 2021</p>
               <p><b>Ubicación:</b> Sevilla</p>
               <p><b>Estado:</b> En ejecución</p>
@@ -33,26 +33,26 @@
               <p><b>Descripción:<br/></b> Se presentaron varios proyectos de diseño para la clienta cada uno con una paleta de color 
               y texturas diferentes. La posibilidad de visualizar el resultado final fue determinante para la elección de la posición 
               y materiales del mobiliario.</p>
-          </b-div>
+          </div>
       </div>
 
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/PR_VIII/C1PostV1.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center1">
+          <b-modal size="xl" hide-footer hide-header id="modal-center1">
             <img src="./assets/imgs/proyectos/PR_VIII/C1PostV1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center2 src="./assets/imgs/proyectos/PR_VIII/OP3_POST.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center2">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center2">
             <img src="./assets/imgs/proyectos/PR_VIII/OP3_POST.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/PR_VIII/foto1.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center3">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center3">
             <img src="./assets/imgs/proyectos/PR_VIII/foto1.jpg" class="card-img" alt="">
           </b-modal>
         </div>

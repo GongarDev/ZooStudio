@@ -33,7 +33,7 @@
     <!-- Text and imgs -->
     <b-container>
       <div>
-          <b-div fluid="sm">
+          <div fluid="sm">
               <p><b>Año:</b> 2020</p>
               <p><b>Ubicación:</b> Sevilla</p>
               <p><b>Estado:</b> Terminado</p>
@@ -43,38 +43,38 @@
                  quedan integrados con la arquitectura para un mejor aprovechamiento del espacio. 
                  La iluminación de la vivienda y la amplitud de las ventanas nos brindó la oportunidad de emplear 
                  mobiliario colorido y papeles pintados en las paredes interiores.</p>
-          </b-div>
+          </div>
       </div>
 
       <h4>Imágenes</h4>
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center6 src="./assets/imgs/proyectos/AP_I/dormitorio.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center6">
+          <b-modal size="xl" hide-footer hide-header id="modal-center6">
             <img src="./assets/imgs/proyectos/AP_I/dormitorio.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center7 src="./assets/imgs/proyectos/AP_I/dormitorio_bn_landscape.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center7">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center7">
             <img src="./assets/imgs/proyectos/AP_I/dormitorio_bn_landscape.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center8 src="./assets/imgs/proyectos/AP_I/dormitorio_landscape.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center8">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center8">
             <img src="./assets/imgs/proyectos/AP_I/dormitorio_landscape.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/AP_I/salon_landscape.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center9">
             <img src="./assets/imgs/proyectos/AP_I/salon_landscape.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center10 src="./assets/imgs/proyectos/AP_I/salon2.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center10">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center10">
             <img src="./assets/imgs/proyectos/AP_I/salon2.jpg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -83,25 +83,25 @@
       <div class="card-columns">
         <div class="card">
           <img v-b-modal.modal-center1 src="./assets/imgs/proyectos/AP_I/ap_l_foto_5.jpg" class="card-img" alt="">
-          <b-modal size="md" centered hide-footer=true hide-header=true id="modal-center1">
+          <b-modal size="md" centered hide-footer hide-header id="modal-center1">
             <img src="./assets/imgs/proyectos/AP_I/ap_l_foto_5.jpg" class="card-img" alt="">
           </b-modal>
         </div>
                 <div class="card">
           <img v-b-modal.modal-center5 src="./assets/imgs/proyectos/AP_I/ap_l_foto_4.jpg" class="card-img" alt="">
-          <b-modal  size="xl" hide-footer=true hide-header=true id="modal-center5">
+          <b-modal  size="xl" hide-footer hide-header id="modal-center5">
             <img src="./assets/imgs/proyectos/AP_I/ap_l_foto_4.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center4 src="./assets/imgs/proyectos/AP_I/ap_l_foto_1.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center4">
+          <b-modal size="xl" hide-footer hide-header id="modal-center4">
             <img src="./assets/imgs/proyectos/AP_I/ap_l_foto_1.jpg" class="card-img" alt="">
           </b-modal>
         </div>
         <div class="card">
           <img v-b-modal.modal-center3 src="./assets/imgs/proyectos/AP_I/ap_l_foto_3.jpg" class="card-img" alt="">
-          <b-modal size="md" hide-footer=true hide-header=true id="modal-center3">
+          <b-modal size="md" hide-footer hide-header id="modal-center3">
             <img src="./assets/imgs/proyectos/AP_I/ap_l_foto_3.jpg" class="card-img" alt="">
           </b-modal>
         </div>
@@ -110,8 +110,8 @@
       <h4>Planos</h4>
       <div class="card-columns">
         <div class="card">
-          <img v-b-modal.modal-center9 src="./assets/imgs/proyectos/AP_I/ap_l_plano.jpg" class="card-img" alt="">
-          <b-modal size="xl" hide-footer=true hide-header=true id="modal-center9">
+          <img v-b-modal.modal-center12 src="./assets/imgs/proyectos/AP_I/ap_l_plano.jpg" class="card-img" alt="">
+          <b-modal size="xl" hide-footer hide-header id="modal-center12">
             <img src="./assets/imgs/proyectos/AP_I/ap_l_plano.jpg" class="card-img" alt="">
           </b-modal>
         </div>

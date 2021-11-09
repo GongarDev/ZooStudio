@@ -31,8 +31,17 @@
 <style scoped>
 
     .card_prox {
-        margin-top: 100px;
+        margin-top: 150px;
         width: auto;
+        margin-bottom: 0px;
+        min-height: 90vh;
+        }
+
+    .footerbar {
+        margin-bottom: 0;
+        bottom: 0;
+        position: relative;
+        width: 100%;
     }
 
 </style>

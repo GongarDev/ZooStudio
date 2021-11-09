@@ -155,7 +155,7 @@ module.exports = {
       display: flex;
       justify-content: left;
       align-items:flex-start;
-      margin-left:100px;
+      margin-left:110px;
     }
 
     .logo {
@@ -164,6 +164,26 @@ module.exports = {
       z-index: 2;
       position: absolute;
       height: 12%;
+            padding-top:20px;
     }
+    
+  }
+
+  @media only screen and (max-width: 379px) {
+      .title {
+          left: 35px;
+      } 
+  }
+
+  @media only screen and (min-width: 379px) and (max-width: 479px) {
+      .title {
+          left: 45px;
+      } 
+  }
+
+  @media only screen and (min-width: 479px) {
+      .title {
+          left: 55px;
+      }        
   }
 </style>

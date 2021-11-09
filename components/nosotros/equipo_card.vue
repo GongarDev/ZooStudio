@@ -1,8 +1,7 @@
 <template>  
   <div class="container">
-    <h4 class="title"></h4>
     <b-card-group deck>
-      <b-card class="card" img-src="./assets/imgs/nosotros/animales_carlos.png" img-alt="Image" img-top>
+      <b-card class="card" img-src="./assets/imgs/nosotros/animal_carlos.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -13,11 +12,11 @@
         <b-card-text class="card_subtitle">
           <div>Arquitecto</div>
           <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/carlos-delgado-gallego-39aa7011b/"><i class="fab fa-linkedin items"></i></a>
-          <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
+          <a class="spotify" target="_blank" href="https://open.spotify.com/playlist/50UIOHpSUOrSqSalM9k6jQ?si=3dc13bec5c684d90"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
 
-      <b-card img-src="./assets/imgs/nosotros/animales_cesar.png" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animal_mario.png" img-alt="Image" img-top>
         <article class="row">
           <h5>Descripción</h5>
           <h5>currículum</h5>
@@ -28,11 +27,11 @@
         <b-card-text class="card_subtitle">
           <div>Arquitecto</div>
           <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/mario-valle-montero/"><i class="fab fa-linkedin items"></i></a>
-          <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
+          <a class="spotify" target="_blank" href="https://open.spotify.com/playlist/7ebGG02hCHaURpKH1tG8Wl?si=e894706fb0aa4efe"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
 
-      <b-card img-src="./assets/imgs/nosotros/animales_carlos.png" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animal_nacho.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -43,11 +42,11 @@
         <b-card-text class=" card_subtitle">
           <div>Arquitecto</div>
           <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/ignaciosánchezfigueroa"><i class="fab fa-linkedin items"></i></a>
-          <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
+          <a class="spotify" target="_blank" href="https://open.spotify.com/playlist/2FbWxFjUBP6DcXlmynXwkC?si=81c397f236cf4bc3"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
 
-      <b-card img-src="./assets/imgs/nosotros/animales_cesar.png" img-alt="Image" img-top>
+      <b-card img-src="./assets/imgs/nosotros/animal_cesar.png" img-alt="Image" img-top>
         <article class="row">
             <h5>Descripción</h5>
             <h5>currículum</h5>
@@ -58,7 +57,7 @@
         <b-card-text class=" card_subtitle">
           <div>Arquitecto</div>
           <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/c%C3%A9sar-hidalgo-guijo-a51589157/"><i class="fab fa-linkedin items"></i></a>
-          <a class="spotify" target="_blank" href="https://www.spotify.com"><i class="fab fa-spotify items"></i></a>
+          <a class="spotify" target="_blank" href="https://open.spotify.com/playlist/50UIOHpSUOrSqSalM9k6jQ?si=ebcb58c7689d4598"><i class="fab fa-spotify items"></i></a>
         </b-card-text>
       </b-card>
 
@@ -81,11 +80,6 @@
   .card-deck {
     display: flex;
     justify-content: space-between;
-  }
-
-  .title {
-    font-weight: bold;
-    margin-bottom: 50px;
   }
   
   .card {
@@ -158,14 +152,14 @@
     cursor: pointer;
   }
 
-  .card:hover img {
+  /* .card:hover img {
     opacity: 0.1;
   }
 
   .card:hover article {
     display: flex;
     opacity: 1;
-  }
+  } */
 
   .container {
     margin-bottom: 50px;
