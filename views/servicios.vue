@@ -56,6 +56,7 @@
         margin-top: 150px;
         width: auto;  
         margin-bottom: 25px;
+        min-height: 90vh;
     }
 
     .servicios {

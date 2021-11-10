@@ -79,7 +79,9 @@
 
   .card-deck {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
+    margin-left:0;
+    margin-right: 0;
   }
   
   .card {
@@ -163,5 +165,7 @@
 
   .container {
     margin-bottom: 50px;
+    margin: 0;
+    max-width: 100%;
   }
 </style>

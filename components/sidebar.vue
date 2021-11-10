@@ -7,11 +7,11 @@
             <b-nav vertical class="navi w-100 h-100">
 
               <div>
-                <router-link class="routerLink" to="/"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
-                <router-link class="routerLink" to="/nosotros"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
-                <router-link class="routerLink" to="/servicios"><b-nav-item href="servicios"><span class="items">Servicios</span></b-nav-item></router-link> 
-                <router-link class="routerLink" to="/proyectos"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
-                <router-link class="routerLink" to="/contacto"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/" @click.native="scrollToTop"><b-nav-item active href="home"><span class="items">Home</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/nosotros" @click.native="scrollToTop"><b-nav-item href="nosotros"><span class="items">Nosotros</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/servicios" @click.native="scrollToTop"><b-nav-item href="servicios"><span class="items">Servicios</span></b-nav-item></router-link> 
+                <router-link class="routerLink" to="/proyectos" @click.native="scrollToTop"><b-nav-item href="proyectos"><span class="items">Proyectos</span></b-nav-item></router-link>
+                <router-link class="routerLink" to="/contacto" @click.native="scrollToTop"><b-nav-item href="contacto"><span class="items">Contacto</span></b-nav-item></router-link>
               </div>
 
               <div class="d-flex bg-dark text-light follow">
@@ -32,6 +32,11 @@
         data() {
             return {
             };
+        },
+        methods: { 
+          scrollToTop() {
+              window.scrollTo(0,0);
+          }
         },
     };
 </script>
