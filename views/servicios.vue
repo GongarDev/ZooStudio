@@ -3,9 +3,10 @@
         <div class="topbar">
 			<topbar></topbar>
 		</div>
-        <!-- <div class="description">
+        <!-- Comentar para Beta -->
+        <div class="description">
             <description></description>
-        </div> -->
+        </div>
         <div class="workflow">
             <workflow></workflow>
         </div>        

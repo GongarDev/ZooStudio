@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col">
                 <div class="d-block">
-                    <!-- <div class="mb-5 title">¡Síguenos!</div> -->
-                    <div class="title mb-4">Ponte en contacto</div>
+                    <div class="mb-5 title">¡Síguenos!</div>
+                    <!-- <div class="title mb-4">Ponte en contacto</div> -->
                     <div class="d-flex justify-content-between w-25 mb-5">
                         <a target="_blank" href="https://www.facebook.com/ZO%C3%92-Estudio-103110098491424/?ref=py_c"><i class="fab fa-2x fa-facebook items"></i></a>
                         <a target="_blank" href="https://www.instagram.com/holazooestudio/"><i class="fab fa-2x fa-instagram items"></i></a>
@@ -32,7 +32,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col">
+            <!-- Comentar para Beta -->
+            <div class="col">
                 <div class="title mb-4">Ponte en contacto</div>
                 <div class="mt-2">
                     <input
@@ -70,7 +71,7 @@
                 <div class="mt-4">
                     <b-button class="btn-primary">ENVIAR</b-button>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>

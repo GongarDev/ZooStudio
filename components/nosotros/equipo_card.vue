@@ -153,15 +153,15 @@
     background-color: #ffffff;
     cursor: pointer;
   }
-
-  /* .card:hover img {
+/*  Comentar para Beta */
+  .card:hover img {
     opacity: 0.1;
   }
 
   .card:hover article {
     display: flex;
     opacity: 1;
-  } */
+  }
 
   .container {
     margin-bottom: 50px;
